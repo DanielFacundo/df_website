@@ -1,11 +1,11 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-
+import '../css/projectcard.css';
 
 
 export default function ProjectCard(props) {
     return (
-    <Card style={{ width: '18rem' }}>
+    <Card className="card">
         <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">{props.techstack}</Card.Subtitle>
