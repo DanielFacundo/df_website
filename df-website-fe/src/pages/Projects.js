@@ -33,15 +33,17 @@ export default function Projects() {
         }
     ]
     return (
-        <div>
+        <div className="background">
+
             <Header/>
             <CardDeck className="card-layout">
-
             {projects.map((card) => 
                         <Card title={card.title} techstack={card.techstack} description={card.description} link={card.link}>
                         </Card>
             )}
             </CardDeck>
+
+
         </div>
     )
 }

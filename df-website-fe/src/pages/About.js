@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 import '../assets/emma.jpg';
 export default function About() {
     return (
-        <div>
+        <div className="background">
             <Header/>
             <Image className="image" src="https://media.vanityfair.com/photos/565cd19cc4bc3b13591a80a5/master/w_2560%2Cc_limit/emma-watson-feeling-awesome.jpg/" roundedCircle/>
             <p className="about-text">In west Philadelphia born and raised
