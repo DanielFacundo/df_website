@@ -1,18 +1,39 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/header.css';
+import { MDBNavbar, MDBNavbarBrand, MDBNavItem,MDBNavLink,MDBNavbarNav,MDBIcon} from 'mdbreact';
+
 
 
 export default function Header() {
     return (
-<Navbar className="custom-navbar" bg="dark" expand="lg" variant="dark">
-    <Navbar.Brand href="#home">Daniel Facundo</Navbar.Brand>
-    <Nav>
-      <Nav.Link href="/" class="mx-auto">Home</Nav.Link>
-      <Nav.Link href="/projects" class="mx-auto">Projects</Nav.Link>
-      <Nav.Link href="/about" class="mx-auto">About Me</Nav.Link>
-    </Nav>
-</Navbar>
+        <header>        
+            <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
+            <MDBNavbarBrand href="/">
+                <strong>Daniel Facundo</strong>
+            </MDBNavbarBrand>
+            <MDBNavbarNav left>
+            <MDBNavItem>
+              <MDBNavLink to="/">Home</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/projects">Projects</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/about">About</MDBNavLink>
+            </MDBNavItem>
+            </MDBNavbarNav>
+            <MDBNavbarNav right>
+            <MDBNavItem>
+              <MDBNavLink to="#!">
+                <MDBIcon fab icon="twitter" />
+              </MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="#!">
+                <MDBIcon fab icon="linkedin" />
+              </MDBNavLink>
+            </MDBNavItem>
+            </MDBNavbarNav>
+        </MDBNavbar>
+        </header>
     )
 }

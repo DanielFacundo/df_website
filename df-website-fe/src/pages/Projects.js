@@ -1,5 +1,4 @@
 import React from 'react'
-import { CardDeck } from 'react-bootstrap';
 import Header from '../components/Header';
 import Card from '../components/ProjectCard';
 import '../css/projects.css'
@@ -36,14 +35,10 @@ export default function Projects() {
         <div className="background">
 
             <Header/>
-            <CardDeck className="card-layout">
             {projects.map((card) => 
                         <Card title={card.title} techstack={card.techstack} description={card.description} link={card.link}>
                         </Card>
             )}
-            </CardDeck>
-
-
         </div>
     )
 }

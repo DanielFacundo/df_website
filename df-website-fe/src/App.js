@@ -4,8 +4,8 @@ import Projects from './pages/projects';
 import Home from './pages/home';
 function App() {
   return (
-    <Router>
       <div>
+        <Router>
         <Switch>
           <Route path="/projects">
             <Projects/>
@@ -17,8 +17,8 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        </Router>
       </div>
-    </Router>
   );
 }
 
