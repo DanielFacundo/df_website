@@ -2,12 +2,16 @@ import { MDBCard, MDBCardBody, MDBCardImage, MDBCardText, MDBCardTitle, MDBCol }
 import React from 'react'
 import '../css/projectcard.css';
 
-
+var style = {
+    maxHeight: "18rem",
+    maxWidth: "18rem",
+    minWidth:"15rem",
+    minHeight: "16rem",
+}
 export default function ProjectCard(props) {
     return (
-        <MDBCol style={{maxWidth: "22rem"}}>
-            <MDBCard>
-            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"/>
+            <MDBCard style={style}>
+            <MDBCardImage className="img-fluid" src={props.link}/>
             <MDBCardBody>
                 <MDBCardTitle>{props.title}</MDBCardTitle>
                 <MDBCardText>
@@ -15,16 +19,5 @@ export default function ProjectCard(props) {
                 </MDBCardText>
             </MDBCardBody>
             </MDBCard>
-        </MDBCol>
-    // <Card className="card">
-    //     <Card.Body>
-    //         <Card.Title>{props.title}</Card.Title>
-    //         <Card.Subtitle className="mb-2 text-muted">{props.techstack}</Card.Subtitle>
-    //         <Card.Text>
-    //             {props.description}
-    //   </Card.Text>
-    //   <Card.Link href={props.link}>{props.link}</Card.Link>
-    //   </Card.Body>
-    //   </Card>
     )
 }
