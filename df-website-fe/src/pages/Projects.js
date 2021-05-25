@@ -34,9 +34,8 @@ export default function Projects() {
     ]
     return (
         <div className="background">
-
-            <Header/>
-            <MDBRow>
+            <Header color="indigo"/>
+            <MDBRow className="card-layout">
             {projects.map((card) => 
             <MDBCol sm='4'>
             <Card title={card.title} techstack={card.techstack} description={card.description} link={card.link}></Card>

@@ -5,8 +5,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavItem,MDBNavLink,MDBNavbarNav,MDBIcon} 
 
 export default function Header() {
     return (
-        <header>        
-            <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
+            <MDBNavbar color="bg-primary" dark expand="md" scrolling transparent>
             <MDBNavbarBrand href="/">
                 <strong>Daniel Facundo</strong>
             </MDBNavbarBrand>
@@ -34,6 +33,5 @@ export default function Header() {
             </MDBNavItem>
             </MDBNavbarNav>
         </MDBNavbar>
-        </header>
     )
 }
