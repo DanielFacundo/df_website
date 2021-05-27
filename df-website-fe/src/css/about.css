@@ -1,6 +1,5 @@
-.about-text{
-    padding: 40px;
-    text-align: center;
+.aboutcard{
+    margin: 10vh;
 }
 .image{
     display: block;
@@ -9,6 +8,10 @@
     width: 25%;
 }
 
-.background{
-    background-image: url("https://i.ibb.co/Pwvbxf4/pexels-mudassir-ali-2680270.jpg");
+.home{
+    background-image: url("https://i.ibb.co/5M0vbJb/pexels-johannes-plenio-1103970.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
