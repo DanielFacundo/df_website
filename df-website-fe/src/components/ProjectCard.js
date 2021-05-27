@@ -8,6 +8,7 @@ var style = {
     minWidth:"15rem",
     minHeight: "16rem",
 }
+
 export default function ProjectCard(props) {
     return (
             <MDBCard style={style}>
