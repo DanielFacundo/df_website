@@ -1,9 +1,15 @@
 import React from 'react'
 import { MDBCard, MDBCardBody, MDBCardImage, MDBCardText, MDBCardTitle, MDBCol, MDBBtn, MDBIcon } from 'mdbreact';
 import '../css/aboutcard.css'
+import image from '../assets/aboutpic.jpg'
 export default function AboutCard() {
     var cardStyle = {
-        minWidth: '30rem',
+        minWidth: '35rem',
+        maxHeight:'45rem',
+        maxWidth:'30rem',
+    }
+
+    var imageStyle = {
     }
     return (
         <MDBCol className="about-card" md='4'>
@@ -11,8 +17,9 @@ export default function AboutCard() {
           <MDBCardImage
             hover
             className='card-img-top'
-            src="https://i.ibb.co/6WFmxN6/4.jpg"
+            src={image}
             alt='about picture'
+            style={imageStyle}
           />
 
           <MDBCardBody cascade className='text-center'>
