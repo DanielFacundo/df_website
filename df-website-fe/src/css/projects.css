@@ -2,12 +2,4 @@ body,html{
     height:100%;
 }
 .card-layout{
-    padding: 40px;
-}
-.background{
-    background-image: url('../assets/background.jpg');
-    height: 120vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }

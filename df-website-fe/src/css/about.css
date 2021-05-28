@@ -1,17 +1,6 @@
+body,html{
+    height:100%;
+}
 .aboutcard{
     margin: 10vh;
-}
-.image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-}
-
-.home{
-    background-image: url("https://i.ibb.co/5M0vbJb/pexels-johannes-plenio-1103970.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
