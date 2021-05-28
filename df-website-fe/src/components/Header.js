@@ -4,6 +4,11 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavItem,MDBNavLink,MDBNavbarNav,MDBIcon} 
 
 
 export default function Header() {
+  var socialmedia = {
+    twitter: "https://twitter.com/Faccundooo",
+    linkedin: "https://www.linkedin.com/in/danielfacundo/",
+    facebook: "https://www.facebook.com/daniel.facundo.98",
+  }
     return (
             <MDBNavbar color="bg-primary" light expand="md" scrolling transparent>
             <MDBNavbarBrand href="/">
@@ -22,14 +27,14 @@ export default function Header() {
             </MDBNavbarNav>
             <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink to="#!">
+              <a href={socialmedia.twitter} target="_blank" className="nav-link Ripple-parent">
                 <MDBIcon fab icon="twitter" />
-              </MDBNavLink>
+              </a>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">
+              <a href={socialmedia.linkedin} target="_blank" className="nav-link Ripple-parent">
                 <MDBIcon fab icon="linkedin" />
-              </MDBNavLink>
+                </a>
             </MDBNavItem>
             </MDBNavbarNav>
         </MDBNavbar>
