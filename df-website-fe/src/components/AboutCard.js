@@ -34,13 +34,16 @@ export default function AboutCard() {
             </MDBCardText>
 
             <MDBCol md='12' className='d-flex justify-content-center'>
+              <a href="https://www.linkedin.com/in/danielfacundo/" target="_blank">
               <MDBBtn rounded floating color='fb'>
                 <MDBIcon size='lg' fab icon='linkedin'></MDBIcon>
               </MDBBtn>
-
+              </a>
+              <a href="https://github.com/DanielFacundo/" target="_blank">
               <MDBBtn rounded floating color='tw'>
-                <MDBIcon size='lg' fab icon='twitter'></MDBIcon>
+                <MDBIcon size='lg' fab icon='github'></MDBIcon>
               </MDBBtn>
+              </a>
             </MDBCol>
           </MDBCardBody>
           <div className='rounded-bottom mdb-color lighten-3 text-center pt-3'>
