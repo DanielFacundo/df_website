@@ -27,12 +27,12 @@ export default function Header() {
             </MDBNavbarNav>
             <MDBNavbarNav right>
             <MDBNavItem>
-              <a href={socialmedia.linkedin} target="_blank" className="nav-link Ripple-parent">
+              <a href={socialmedia.linkedin} target="_blank" rel="noreferrer" className="nav-link Ripple-parent">
                 <MDBIcon fab icon="linkedin" />
                 </a>
             </MDBNavItem>
             <MDBNavItem>
-              <a href={socialmedia.github} target="_blank" className="nav-link Ripple-parent">
+              <a href={socialmedia.github} target="_blank" rel="noreferrer" className="nav-link Ripple-parent">
                 <MDBIcon fab icon="github" />
               </a>
             </MDBNavItem>

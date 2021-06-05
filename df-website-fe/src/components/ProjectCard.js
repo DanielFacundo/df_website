@@ -13,7 +13,7 @@ const renderGithub = () => {
     if (typeof props.github == 'string') {
         return (
         <li className='list-inline-item pr-2'>
-        <a href={props.github} target="_blank" className='white-text'>
+        <a href={props.github} target="_blank" rel="noreferrer" className='white-text'>
             <MDBIcon fab icon='github' className='mr-1' />
             Github
         </a>

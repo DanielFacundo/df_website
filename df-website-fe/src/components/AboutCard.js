@@ -34,12 +34,12 @@ export default function AboutCard() {
             </MDBCardText>
 
             <MDBCol md='12' className='d-flex justify-content-center'>
-              <a href="https://www.linkedin.com/in/danielfacundo/" target="_blank">
+              <a href="https://www.linkedin.com/in/danielfacundo/" target="_blank" rel="noreferrer">
               <MDBBtn rounded floating color='fb'>
                 <MDBIcon size='lg' fab icon='linkedin'></MDBIcon>
               </MDBBtn>
               </a>
-              <a href="https://github.com/DanielFacundo/" target="_blank">
+              <a href="https://github.com/DanielFacundo/" target="_blank" rel="noreferrer">
               <MDBBtn rounded floating color='tw'>
                 <MDBIcon size='lg' fab icon='github'></MDBIcon>
               </MDBBtn>

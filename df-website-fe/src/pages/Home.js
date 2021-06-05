@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Header from '../components/Header'
 import HomeView from '../components/HomeView';
 import { MDBIcon } from "mdbreact";
@@ -15,10 +15,10 @@ export default function Home() {
                 Aspiring Software Engineer
             </p>
             <div className="home-icons">
-            <a href="https://www.linkedin.com/in/danielfacundo/" target="_blank" className="a-icons">
+            <a href="https://www.linkedin.com/in/danielfacundo/" target="_blank" rel="noreferrer" className="a-icons">
             <MDBIcon size="3x" fab icon="linkedin"/>
             </a>
-            <a href="https://github.com/DanielFacundo" target="_blank" className="a-icons">
+            <a href="https://github.com/DanielFacundo" target="_blank" rel="noreferrer" className="a-icons">
             <MDBIcon size="3x" className="home-icons" fab icon="github" />
             </a>
             </div>
