@@ -11,3 +11,22 @@ body,html{
     background-size: cover;
 }
 
+.home-icons {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    animation: fade-icon 0.75s forwards;
+}
+.a-icons {
+    padding: 10px;
+    color: inherit;
+}
+
+@keyframes fade-icon {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
