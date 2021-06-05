@@ -27,7 +27,7 @@ h1 span span {
     100% {
         bottom: 0;
         opacity: 1;
-        columns: #191a25;
+        color: #191a25;
     }
 }
 
@@ -35,19 +35,16 @@ h1 span span {
     text-align: center;
     font-size: 2.5em;
     opacity: 0;
-    animation: fade-info-text 1s forwards;
+    animation: fade-info-text 1.25s forwards;
 }
 
 @keyframes fade-info-text {
     0% {
         opacity: 0;
+        color: #6c9dc7;
     }
-
-    50% {
-        opacity: .5;
-    }
-
     100% {
         opacity: 1;
+        color: #191a25;
     }
 }

@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Header from '../components/Header'
 import HomeView from '../components/HomeView';
+import { MDBIcon } from "mdbreact";
 import '../css/home.css';
 
 export default function Home() {
@@ -13,6 +14,14 @@ export default function Home() {
             <p className='info-text'>
                 Aspiring Software Engineer
             </p>
+            <div className="home-icons">
+            <a href="https://www.linkedin.com/in/danielfacundo/" target="_blank" className="a-icons">
+            <MDBIcon size="3x" fab icon="linkedin"/>
+            </a>
+            <a href="https://github.com/DanielFacundo" target="_blank" className="a-icons">
+            <MDBIcon size="3x" className="home-icons" fab icon="github" />
+            </a>
+            </div>
         </div>
     )
 }
