@@ -5,7 +5,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavItem,MDBNavLink,MDBNavbarNav,MDBIcon} 
 
 export default function Header() {
   var socialmedia = {
-    twitter: "https://twitter.com/Faccundooo",
+    github: "https://github.com/DanielFacundo/",
     linkedin: "https://www.linkedin.com/in/danielfacundo/",
     facebook: "https://www.facebook.com/daniel.facundo.98",
   }
@@ -27,8 +27,8 @@ export default function Header() {
             </MDBNavbarNav>
             <MDBNavbarNav right>
             <MDBNavItem>
-              <a href={socialmedia.twitter} target="_blank" className="nav-link Ripple-parent">
-                <MDBIcon fab icon="twitter" />
+              <a href={socialmedia.github} target="_blank" className="nav-link Ripple-parent">
+                <MDBIcon fab icon="github" />
               </a>
             </MDBNavItem>
             <MDBNavItem>
